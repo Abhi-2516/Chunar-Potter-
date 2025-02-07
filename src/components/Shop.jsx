@@ -6,7 +6,7 @@ const Shop = () => {
 
   const handlePayment = (amount, productName) => {
     const options = {
-      key: "rzp_test_TgPSIkglYuYsLR", // Replace with your Razorpay API key
+      key: "", // Replace with your Razorpay API key
       amount: amount * 100, // Convert amount to paise
       currency: "INR",
       name: "Pottery.com",
