@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAxpNOYkeBm8ZpswaknMjT4B_D3CnOnr-w",
+  apiKey: "", //add secret keys
   authDomain: "pottery-e9b23.firebaseapp.com",
   projectId: "pottery-e9b23",
   storageBucket: "pottery-e9b23.firebasestorage.app",
   messagingSenderId: "71952774376",
-  appId: "1:71952774376:web:6d12b0335a336c3f74455d",
+  appId: "", //add app id
   measurementId: "G-71BR3L492J"
 };
 
